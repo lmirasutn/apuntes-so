@@ -14,9 +14,9 @@ El proceso, como entidad activa, tiene una estructura llamada imagen del proceso
 - **Stack**: memoria estática.
 - **Datos**: variables globales y estáticas (`static int acumulador = 20;`).
 - **Variables**: locales, normales. Se guarda en el stack y desaparecen al terminar la función.
+- **PCB** 
 
-Entonces, el proceso es dinámico, crece y decrece constantemente.
-
+###  En resumen, el proceso es dinámico, va creciendo y decrececiendo constantemente.
 ---
 
 ## PCB: Process Control Block
